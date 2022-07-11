@@ -1,0 +1,57 @@
+body {
+
+    background: linear-gradient(45deg, #0c0c0c 0%, #303030 100%);
+  }
+
+
+.gaming {
+    /* アニメーションの長さ */
+    animation: gaming 2s linear infinite;
+  }
+  @keyframes gaming {
+    /* 色の指定 */
+    0% { background-color: Magenta; }
+    33% { background-color: yellow; }
+    66% { background-color: Cyan; }
+    100% { background-color: Magenta; }
+  }
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-size: 40px;
+
+    font-family: serif;
+
+    color: rgb(255, 140, 8);
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+}
+h4 {
+    font-size: 22px;
+
+    font-family: serif;
+
+    color: rgb(255, 255, 255);
+}
+
+p {
+    font-size:16px;
+    word-wrap: break-word;
+    color: rgb(255, 255, 255);
+}
+
+img {
+    width: 500px;
+}
+
+h5 {
+    color: rgb(41, 41, 41);
+}
+
+a {
+    color: rgb(150, 130, 0);
+}
